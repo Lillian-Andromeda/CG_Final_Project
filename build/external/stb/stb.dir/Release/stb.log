@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/Final/external/stb/CMakeLists.txt
+  stb_image.cpp
+  stb_vorbis.c
+  stb.vcxproj -> E:\Final\build\external\stb\Release\stb.lib

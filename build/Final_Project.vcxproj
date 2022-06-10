@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B6FE6F33-44BD-309A-A929-98C85272CC8D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>Final_Project</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Final\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Final_Project.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Final_Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Final\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Final_Project.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Final_Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Final\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Final_Project.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Final_Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Final\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Final_Project.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Final_Project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\glad\src\Debug\glad.lib;external\glfw\src\Debug\glfw3.lib;external\imgui\Debug\imgui.lib;external\stb\Debug\stb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Final/build/Debug/Final_Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Final/build/bin/Debug/Final_Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\glad\src\Release\glad.lib;external\glfw\src\Release\glfw3.lib;external\imgui\Release\imgui.lib;external\stb\Release\stb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Final/build/Release/Final_Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Final/build/bin/Release/Final_Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\glad\src\MinSizeRel\glad.lib;external\glfw\src\MinSizeRel\glfw3.lib;external\imgui\MinSizeRel\imgui.lib;external\stb\MinSizeRel\stb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Final/build/MinSizeRel/Final_Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Final/build/bin/MinSizeRel/Final_Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Final\external\glad\include;E:\Final\external\glfw\include;E:\Final\external\glm;E:\Final\external\imgui;E:\Final\external\stb;E:\Final\external\glm\glm\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>external\glad\src\RelWithDebInfo\glad.lib;external\glfw\src\RelWithDebInfo\glfw3.lib;external\imgui\RelWithDebInfo\imgui.lib;external\stb\RelWithDebInfo\stb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Final/build/RelWithDebInfo/Final_Project.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Final/build/bin/RelWithDebInfo/Final_Project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Final\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SE:/Final -BE:/Final/build --check-stamp-file E:/Final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CMake\share\cmake-3.23\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeCXXCompiler.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeRCCompiler.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SE:/Final -BE:/Final/build --check-stamp-file E:/Final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CMake\share\cmake-3.23\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeCXXCompiler.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeRCCompiler.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SE:/Final -BE:/Final/build --check-stamp-file E:/Final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CMake\share\cmake-3.23\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeCXXCompiler.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeRCCompiler.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SE:/Final -BE:/Final/build --check-stamp-file E:/Final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CMake\share\cmake-3.23\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeCXXCompiler.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeRCCompiler.cmake;E:\Final\build\CMakeFiles\3.23.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Final\src\base\bounding_box.h" />
+    <ClInclude Include="E:\Final\src\base\camera.h" />
+    <ClInclude Include="E:\Final\src\base\frame_rate_indicator.h" />
+    <ClInclude Include="E:\Final\src\base\framebuffer.h" />
+    <ClInclude Include="E:\Final\src\base\frustum.h" />
+    <ClInclude Include="E:\Final\src\base\glsl_program.h" />
+    <ClInclude Include="E:\Final\src\base\input.h" />
+    <ClInclude Include="E:\Final\src\base\light.h" />
+    <ClInclude Include="E:\Final\src\base\material.h" />
+    <ClInclude Include="E:\Final\src\base\object3d.h" />
+    <ClInclude Include="E:\Final\src\base\plane.h" />
+    <ClInclude Include="E:\Final\src\base\skybox.h" />
+    <ClInclude Include="E:\Final\src\base\stage.h" />
+    <ClInclude Include="E:\Final\src\base\texture.h" />
+    <ClInclude Include="E:\Final\src\base\vertex.h" />
+    <ClInclude Include="E:\Final\src\base\window.h" />
+    <ClCompile Include="E:\Final\src\base\camera.cpp" />
+    <ClCompile Include="E:\Final\src\base\glsl_program.cpp" />
+    <ClCompile Include="E:\Final\src\base\object3d.cpp" />
+    <ClCompile Include="E:\Final\src\base\skybox.cpp" />
+    <ClCompile Include="E:\Final\src\base\texture.cpp" />
+    <ClCompile Include="E:\Final\src\base\window.cpp" />
+    <ClInclude Include="E:\Final\src\application.h" />
+    <ClInclude Include="E:\Final\src\ball.h" />
+    <ClInclude Include="E:\Final\src\cone.h" />
+    <ClInclude Include="E:\Final\src\cube.h" />
+    <ClInclude Include="E:\Final\src\cylinder.h" />
+    <ClInclude Include="E:\Final\src\model.h" />
+    <ClInclude Include="E:\Final\src\obj_loader.h" />
+    <ClInclude Include="E:\Final\src\prism.h" />
+    <ClInclude Include="E:\Final\src\scene_roaming.h" />
+    <ClInclude Include="E:\Final\src\whack_moles.h" />
+    <ClCompile Include="E:\Final\src\application.cpp" />
+    <ClCompile Include="E:\Final\src\ball.cpp" />
+    <ClCompile Include="E:\Final\src\cone.cpp" />
+    <ClCompile Include="E:\Final\src\cube.cpp" />
+    <ClCompile Include="E:\Final\src\cylinder.cpp" />
+    <ClCompile Include="E:\Final\src\main.cpp" />
+    <ClCompile Include="E:\Final\src\model.cpp" />
+    <ClCompile Include="E:\Final\src\obj_loader.cpp" />
+    <ClCompile Include="E:\Final\src\prism.cpp" />
+    <ClCompile Include="E:\Final\src\scene_roaming.cpp" />
+    <ClCompile Include="E:\Final\src\whack_moles.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Final\build\ZERO_CHECK.vcxproj">
+      <Project>{A6FC1F92-5A78-3FE5-B1BA-8DB9A8EAD87A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Final\build\external\glad\src\glad.vcxproj">
+      <Project>{85A525BF-DEB2-393A-A7B8-EF5A2169E5B4}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Final\build\external\glfw\src\glfw.vcxproj">
+      <Project>{5A96FCB7-443F-3A3B-A183-3835358553C8}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Final\build\external\imgui\imgui.vcxproj">
+      <Project>{C2C049E2-C8B8-355A-8749-37F68BFBFDE7}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Final\build\external\stb\stb.vcxproj">
+      <Project>{E8CCD3B0-C2C7-376F-BB87-5940677DAB27}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
